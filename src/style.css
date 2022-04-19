@@ -1,0 +1,99 @@
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: #1f4e5f;
+}
+
+.appContent {
+  border: 2px solid #e0ebeb;
+  border-radius: 10px;
+  box-shadow: -10px 10px 10px #e0ebeb;
+  color: #1f4e5f;
+  margin: 56px auto 24px auto;
+  padding: 25px 0 25px 50px;
+  width: 65%;
+}
+
+.inputLocation {
+  border: 1px solid #e0ebeb;
+  border-radius: 5px;
+  font-size: italic;
+  width: 50%;
+}
+
+.inputSearchButton {
+  background-color: #ffffff;
+  border: 1px solid #e0ebeb;
+  border-radius: 5px;
+  color: #1f4e5f;
+  width: 12%;
+}
+
+.currentDataSearchButton {
+  background-color: #e0ebeb;
+  border: 1px solid #e0ebeb;
+  border-radius: 5px;
+  color: #1f4e5f;
+  margin-left: 10px;
+  width: 22%;
+}
+
+.currentLocationData {
+  margin: 25px 0;
+}
+
+.currentLocationName {
+  font-family: "Montserrat", sans-serif;
+  font-size: 26px;
+  margin: 0;
+}
+
+.currentLocationTime {
+  font-size: 22px;
+  margin: 0;
+}
+
+.currentLocationDayOfTheWeek {
+  font-size: 18px;
+  margin: 0;
+}
+
+.currentLocationWeather {
+  margin: 25px 0 50px;
+}
+
+.currentLocationWeatherIcon {
+  font-size: 35px;
+  margin-right: 8px;
+}
+
+.currentLocationTemperatureValue {
+  font-family: "Montserrat", sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.currentLocationTemperatureUnitInCels {
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  vertical-align: super;
+}
+
+.weatherForecast {
+  color: #79a8a9;
+}
+
+.signature {
+  color: #1f4e5f;
+  margin: 0 0 0 200px;
+}
